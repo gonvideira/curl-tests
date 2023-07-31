@@ -1,5 +1,10 @@
 # curl-tests
 
+## CURL manual page
+```
+https://curl.se/docs/httpscripting.html
+```
+
 ## API for testing
 
 ```
