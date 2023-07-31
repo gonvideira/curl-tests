@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Get CURL manual
-        run: curl --help
+        run: curl --help output
       
       - name: Test CURL on IPMA API
-        run: curl https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json
+        run: curl https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json -o "ipma.json"
